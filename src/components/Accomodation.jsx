@@ -48,7 +48,7 @@ const Accomodation = () => {
        
  </div>
 
- <div className=" bg-[#1D1D1E] h-[18rem] mt-10" >
+ <div className=" bg-[#1D1D1E] lg:h-[19rem] " >
  
         {/* the links and logo */}
         <div className="flex md:flex-row flex-col-reverse justify-between text-white px-12">
