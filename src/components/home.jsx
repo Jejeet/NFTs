@@ -140,7 +140,7 @@ const home = () => {
 
 
       {/* the footer div */}
-      <div className=" bg-[#1D1D1E] h-[21rem] " >
+      <div className=" bg-[#1D1D1E] h-[19rem] " >
 
         {/* the links and logo */}
         <div className="flex flex-row justify-between text-white px-12 ">
@@ -186,7 +186,7 @@ const home = () => {
         </div>
 
 
-        <footer className="pt-[8px]">
+        <footer className="py-12">
           <p>
             <img src={Footer} alt="" />
           </p>
