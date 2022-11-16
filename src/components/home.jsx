@@ -125,7 +125,7 @@ const home = () => {
         </div>
 
         {/* the pictures */}
-        <div className="  justify-center  items-center">
+        <div className="  justify-center  items-center pb-10 md:pb-0">
           <img src={Foot} alt="" className="w-[32rem]"/>
 
         {/* <div className="relative items-center">
