@@ -25,7 +25,7 @@ const home = () => {
       
       <Nav />
 
-      <div className=" px-8 py-8 flex justify-between gap-12">
+      <div className=" px-8 py-8 lg:flex md:flex-col justify-between gap-12">
         <div className="flex flex-col justify-between pt-12">
           <div className="text-[3rem]">
           
@@ -74,6 +74,7 @@ const home = () => {
           </div>
         </div>
       </div>
+
       {/* the tokens */}
       <div className="w-full bg-gradient-to-r from-[#A02279] to-[#A02279] flex justify-between px-8 py-4 my-12">
         <div>
@@ -89,6 +90,7 @@ const home = () => {
       {/* the second part of the page that contains a heding and cards */}
 
       <div>
+
         <header className="text-center text-5xl my-8">Inspiration for your next adventure</header>
         {/* the main card boxes */}
         <div className="mx-auto px-6">
