@@ -140,7 +140,7 @@ const home = () => {
 
 
       {/* the footer div */}
-      <div className=" bg-[#1D1D1E] lg:h-[19rem] md:h-[60rem] " >
+      <div className=" bg-[#1D1D1E] lg:h-[19rem] " >
 
         {/* the links and logo */}
         <div className="flex flex-row justify-between text-white px-12 ">
