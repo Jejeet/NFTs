@@ -186,7 +186,7 @@ const home = () => {
         </div>
 
 
-        <footer className="py-12">
+        <footer className="py-8">
           <p>
             <img src={Footer} alt="" />
           </p>
