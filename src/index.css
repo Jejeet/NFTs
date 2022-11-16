@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-family: 'Red Rose', cursive;
+    margin: 0;
+    padding: 0;
+}
