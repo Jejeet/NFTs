@@ -10,15 +10,12 @@ import Opensea from "../images/opensea.png";
 import Imagelist from "../Utils/Imagelist";
 import Card from "./Card";
 import Foot from "../images/foot.png";
-import Modal from "../components/modal";
+
 import Metabnb from "../images/Footer1.png";
 import Facebook from "../images/facebook.png";
 import Twitter from "../images/twitter.png";
 import Instagram from "../images/insta.png";
 import Footer from "../images/footer.png";
-// import Image21 from "../images/image21.png";
-// import Image22 from "../images/image22.png";
-// import Image23 from "../images/image23.png"
 
 const home = () => {
   return (
