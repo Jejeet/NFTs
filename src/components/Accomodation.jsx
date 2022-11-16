@@ -15,14 +15,14 @@ const Accomodation = () => {
         <Nav/>
         <header className='py-8'>
             <ul className='flex justify-between px-9'>
-                <li><a href="">Resturance</a> </li>
-                <li><a href="">Cottage</a></li>
-                <li><a href="">Castle</a></li>
-                <li><a href="">Fantast city</a></li>
-                <li><a href="">Beach</a></li>
-                <li><a href="">Carbins</a></li>
-                <li><a href="">Off-grid</a></li>
-                <li><a href="">Farm</a></li>
+                <li><a href="#res">Resturance</a> </li>
+                <li><a href="#cot">Cottage</a></li>
+                <li><a href="#cast">Castle</a></li>
+                <li><a href="#fan">Fantast city</a></li>
+                <li><a href="#bea">Beach</a></li>
+                <li><a href="#car">Carbins</a></li>
+                <li><a href="#off">Off-grid</a></li>
+                <li><a href="#farm">Farm</a></li>
                 <li>
                     <button className='flex '>
                         <span>location</span>
@@ -36,7 +36,7 @@ const Accomodation = () => {
 
 
         <div className="mx-auto px-6">
-        <div className="grid grid-cols-4 gap-y-6 gap-x-3 ">
+        <div className=" grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-y-6 gap-x-3 ">
           {/* each card has its div here */}
          
         {Imagelist.map((image,id)=> {

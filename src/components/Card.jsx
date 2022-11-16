@@ -5,7 +5,7 @@ import Rate from "../images/rates.png";
 const Card = ({image}) => {
 
   return (
-    <div>
+    <div >
          <div className="w-[18.25rem] h-[23.25rem] rounded-lg shadow-lg  p-4 ">
             <div className="pb-4">
               <img src={image} alt="" />
