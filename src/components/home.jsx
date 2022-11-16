@@ -106,7 +106,7 @@ const home = () => {
 
       <div className="h-[80vh] w-full bg-gradient-to-r from-[#A02279] to-[#A02279] px-12 ">
         {/* the essay */}
-        <div className="grid grid-cols-2 gap-4 py-24 ">
+        <div className=" grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-y-6 gap-x-3 ">
         <div>
           <header> Metabnb NFTs</header>
           <div>
