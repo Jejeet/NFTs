@@ -143,7 +143,7 @@ const home = () => {
       <div className=" bg-[#1D1D1E] h-[18rem] " >
 
         {/* the links and logo */}
-        <div className="flex flex-row justify-between text-white px-12 md:flex-col">
+        <div className="flex lg:flex-row md:flex-col justify-between text-white px-12 ">
           <div>
             <div className="py-8">
               {" "}
