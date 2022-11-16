@@ -52,7 +52,7 @@ const home = () => {
           </div>
         </div>
 
-        <div className="md:flex w-[15%] gap-3  ">
+        <div className="md:flex w-[7%] gap-3  ">
          
          <div>
             <div className="h-16"> </div>
