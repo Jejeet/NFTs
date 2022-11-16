@@ -110,7 +110,7 @@ const home = () => {
 
       <div className="md:h-[80vh] h-[100vh] w-full bg-gradient-to-r from-[#A02279] to-[#A02279] px-12  ">
         {/* the essay */}
-        <div className="grid md:grid-cols-2  grid-cols-1 gap-4 py-24   ">
+        <div className="grid md:grid-cols-2  grid-cols-1 gap-4 py-24 ">
         <div>
           <header> Metabnb NFTs</header>
           <div>
@@ -145,7 +145,7 @@ const home = () => {
       <div className=" bg-[#1D1D1E] lg:h-[19rem] " >
 
         {/* the links and logo */}
-        <div className="flex flex-row justify-between text-white px-12 ">
+        <div className="flex md:flex-row flex-col-reverse justify-between text-white px-12 ">
           <div>
             <div className="py-8">
               {" "}
