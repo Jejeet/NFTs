@@ -25,7 +25,7 @@ const home = () => {
       
       <Nav />
 
-      <div className=" px-8 py-8 flex lg:flex-row md:flex-col sm:flex-col justify-between gap-12 ">
+      <div className=" px-8 py-8 flex md:flex-row flex-col justify-between gap-12 ">
         <div className="flex  flex-col justify-between pt-12">
           <div className="text-[3rem] ">
           
@@ -53,7 +53,8 @@ const home = () => {
         </div>
 
         <div className="flex gap-3 ">
-          <div>
+         
+         <div>
             <div className="h-16"> </div>
             <div className="w-[13rem] h-[11rem]">
               <img src={Image4} alt="" />
@@ -72,8 +73,9 @@ const home = () => {
             </div>
             <div className="h-16"></div>
           </div>
+         </div>
         </div>
-      </div>
+    
 
       {/* the tokens */}
       <div className="w-full bg-gradient-to-r from-[#A02279] to-[#A02279] flex justify-between px-8 py-4 my-12">
