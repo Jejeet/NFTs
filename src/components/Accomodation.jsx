@@ -14,7 +14,7 @@ const Accomodation = () => {
     <div>
         <Nav/>
         <header className='py-8'>
-            <ul className='flex justify-between px-9'>
+            <ul className='flex md:flex-row flex-col justify-between px-9'>
                 <li><a href="#res">Resturance</a> </li>
                 <li><a href="#cot">Cottage</a></li>
                 <li><a href="#cast">Castle</a></li>
