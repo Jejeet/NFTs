@@ -27,7 +27,7 @@ const home = () => {
 
       <div className=" px-8 py-8 lg:flex flex-row  justify-between gap-12 ">
         <div className="flex flex-col justify-between pt-12">
-          <div className="text-[3rem]">
+          <div className="text-[3rem] md:block">
           
               {" "}
              <p className="whitespace-nowrap">Rent a <span className="font-semibold  bg-clip-text text-transparent bg-gradient-to-r  from-[#A02279] to-[#A02279] ">Place</span> away from{" "}</p> 
