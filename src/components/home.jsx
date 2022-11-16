@@ -56,19 +56,19 @@ const home = () => {
          
          <div>
             <div className="h-16"> </div>
-            <div className="w-[11rem] h-[11rem]">
+            <div className="w-[13rem] h-[11rem]">
               <img src={Image4} alt="" />
             </div>
-            <div className="w-[11rem] h-[11rem]">
+            <div className="w-[13rem] h-[11rem]">
               <img src={Image6} alt="" />
             </div>
           </div>
 
           <div>
-            <div className="w-[11rem] h-[11rem]">
+            <div className="w-[13rem] h-[11rem]">
               <img src={Image3} alt="" />
             </div>
-            <div className="w-[11rem] h-[11rem]">
+            <div className="w-[13rem] h-[11rem]">
               <img src={Image5} alt="" />
             </div>
             <div className="h-16"></div>
