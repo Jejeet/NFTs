@@ -49,9 +49,9 @@ const Accomodation = () => {
  </div>
 
  <div className=" bg-[#1D1D1E] h-[18rem] mt-10" >
-
+ 
         {/* the links and logo */}
-        <div className="flex flex-row justify-between text-white px-12">
+        <div className="flex md:flex-row flex-col-reverse justify-between text-white px-12">
           <div>
             <div className="py-8">
               {" "}
