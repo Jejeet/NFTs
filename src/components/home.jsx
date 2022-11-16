@@ -108,7 +108,7 @@ const home = () => {
       </div>
       {/* the last div  */}
 
-      <div className="h-[80vh] w-full bg-gradient-to-r from-[#A02279] to-[#A02279] px-12 ">
+      <div className="h-[80vh] w-full bg-gradient-to-r from-[#A02279] to-[#A02279] px-12 flex md:flex-col-reverse ">
         {/* the essay */}
         <div className="grid grid-cols-2 gap-4 py-24 ">
         <div>
