@@ -52,7 +52,7 @@ const home = () => {
           </div>
         </div>
 
-        <div className="flex gap-3">
+        <div className="flex gap-3 md:hidden">
           <div>
             <div className="h-16"> </div>
             <div className="w-[13rem] h-[11rem]">
