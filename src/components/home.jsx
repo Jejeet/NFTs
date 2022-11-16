@@ -25,7 +25,7 @@ const home = () => {
       
       <Nav />
 
-      <div className=" px-8 py-8 lg:flex md:flex-col justify-between gap-12">
+      <div className=" px-8 py-8 lg:flex flex-row  justify-between gap-12 md:flex-col">
         <div className="flex flex-col justify-between pt-12">
           <div className="text-[3rem]">
           
