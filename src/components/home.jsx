@@ -108,7 +108,7 @@ const home = () => {
       </div>
       {/* the last div  */}
 
-      <div className="h-[80vh] w-full bg-gradient-to-r from-[#A02279] to-[#A02279] px-12  ">
+      <div className="md:h-[80vh] h-[100vh] w-full bg-gradient-to-r from-[#A02279] to-[#A02279] px-12  ">
         {/* the essay */}
         <div className="grid md:grid-cols-2  grid-cols-1 gap-4 py-24   ">
         <div>
@@ -125,7 +125,7 @@ const home = () => {
         </div>
 
         {/* the pictures */}
-        <div className="  justify-center  items-center pb-10 md:pb-0">
+        <div className="  justify-center  items-center ">
           <img src={Foot} alt="" className="w-[32rem]"/>
 
         {/* <div className="relative items-center">
