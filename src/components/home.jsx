@@ -92,7 +92,7 @@ const home = () => {
         <header className="text-center text-5xl my-8">Inspiration for your next adventure</header>
         {/* the main card boxes */}
         <div className="mx-auto px-6">
-        <div className="grid grid-cols-4 gap-y-6 gap-x-3 ">
+        <div className=" grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-y-6 gap-x-3 ">
           {/* each card has its div here */}
          
         {Imagelist.slice(0,8).map((image,id)=> {
@@ -106,7 +106,7 @@ const home = () => {
 
       <div className="h-[80vh] w-full bg-gradient-to-r from-[#A02279] to-[#A02279] px-12 ">
         {/* the essay */}
-        <div className=" grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 gap-y-6 gap-x-3 ">
+        <div className="grid grid-cols-2 gap-4 py-24 ">
         <div>
           <header> Metabnb NFTs</header>
           <div>
